@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "test": "echo \"No tests specified, but continuing...\"",
-    "build:cjs": "BABEL_ENV=commonjs babel src -d dist/cjs",
-    "build:es": "BABEL_ENV=es babel src -d dist/es",
+    "build:cjs": "cross-env BABEL_ENV=commonjs babel src -d dist/cjs",
+    "build:es": "cross-env BABEL_ENV=es babel src -d dist/es",
     "build": "npm run build:cjs && npm run build:es"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
     "node-fetch": "^2.6.1"
   },
   "repository": {
