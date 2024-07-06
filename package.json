@@ -1,10 +1,11 @@
 {
   "name": "neyro-api",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "A JavaScript library for interacting with the Neyro API",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "files": [
+    "src",
     "dist"
   ],
   "scripts": {
