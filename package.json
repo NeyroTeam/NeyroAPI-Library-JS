@@ -4,6 +4,9 @@
   "description": "A JavaScript library for interacting with the Neyro API",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"No tests specified, but continuing...\"",
     "build:cjs": "BABEL_ENV=commonjs babel src -d dist/cjs",
