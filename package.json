@@ -16,11 +16,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeyroTeam/NeyroAPI-Library.git",
-    "directory": "JavaScript"
+    "url": "git+https://github.com/NeyroTeam/NeyroAPI-Library-JS.git"
   },
   "bugs": {
-    "url": "https://github.com/NeyroTeam/NeyroAPI-Library/issues"
+    "url": "https://github.com/NeyroTeam/NeyroAPI-Library-JS/issues"
   },
-  "homepage": "https://github.com/NeyroTeam/NeyroAPI-Library/tree/JavaScript#readme"
+  "homepage": "https://github.com/NeyroTeam/NeyroAPI-Library-JS#readme"
 }
