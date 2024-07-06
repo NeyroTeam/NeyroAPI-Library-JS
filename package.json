@@ -1,0 +1,26 @@
+{
+  "name": "neyro-api",
+  "version": "0.1.4",
+  "description": "A JavaScript library for interacting with the Neyro API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "rep0rt <workghmail5775@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeyroTeam/NeyroAPI-Library.git",
+    "directory": "JavaScript"
+  },
+  "bugs": {
+    "url": "https://github.com/NeyroTeam/NeyroAPI-Library/issues"
+  },
+  "homepage": "https://github.com/NeyroTeam/NeyroAPI-Library/tree/JavaScript#readme"
+}
