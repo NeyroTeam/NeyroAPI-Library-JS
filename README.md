@@ -13,7 +13,7 @@ npm install neyro-api
 Or from this repository
 
 ```bash
-npm install https://github.com/NeyroTeam/NeyroAPI-Library#JavaScript
+npm install https://github.com/NeyroTeam/NeyroAPI-Library-JS
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ const neyroApi = new NeyroAPI(apiKey, captchaKey);
 
 // Text API
 neyroApi.textGptNew({
-  messages: ["Hello, how are you?"],
+  messages: [{ role: "user", content: "Hello, how are you?" }],
   model: "gpt-3.5-turbo",
   maxTokens: 512,
   temperature: 0.9,
@@ -75,7 +75,7 @@ const asyncNeyroApi = new AsyncNeyroAPI(apiKey, captchaKey);
 
 async function main() {
   const textResponse = await asyncNeyroApi.textGptNew({
-    messages: ["Hello, how are you?"],
+    messages: [{ role: "user", content: "Hello, how are you?" }],
     model: "gpt-3.5-turbo",
     maxTokens: 512,
     temperature: 0.9,
