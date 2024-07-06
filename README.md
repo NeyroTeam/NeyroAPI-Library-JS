@@ -9,7 +9,6 @@ To install the library, use npm:
 
 ```bash
 npm install neyro-api
-```
 
 Or from this repository
 
