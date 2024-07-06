@@ -1,4 +1,3 @@
-```markdown
 # NeyroAPI JavaScript Library
 
 This library provides a JavaScript interface to interact with the Neyro API, supporting text, image, and audio functionalities.
@@ -9,6 +8,7 @@ To install the library, use npm:
 
 ```bash
 npm install neyro-api
+```
 
 Or from this repository
 
