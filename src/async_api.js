@@ -14,7 +14,7 @@ class AsyncNeyroAPI {
   }
 
   async textGptNew(data) {
-    return await GptNewAPI.asyncGptNew(this, data);
+    return await GptNew.asyncGptNew(this, data);
   }
 
   async imageSh(data) {
@@ -26,7 +26,7 @@ class AsyncNeyroAPI {
   }
 
   async textFilter(data) {
-    return await FilterAPI.asyncFilter(this, data);
+    return await Filter.asyncFilter(this, data);
   }
 }
 
