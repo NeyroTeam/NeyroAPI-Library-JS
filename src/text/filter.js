@@ -9,7 +9,7 @@ class TextAPI {
   }
 
   static async asyncFilter(api, data) {
-    const url = `${api.BASE_URL}/text/gpt-new`;
+    const url = `${api.BASE_URL}/text/filter`;
     const response = await fetch(url, {
       method: 'POST',
       headers: api.headers,
