@@ -24,6 +24,10 @@ class AsyncNeyroAPI {
   async audioTts(data) {
     return await AudioAPI.asyncTts(this, data);
   }
+
+  async textFilter(data) {
+    return await TextAPI.asyncFilter(this, data);
+  }
 }
 
 export { AsyncNeyroAPI };
