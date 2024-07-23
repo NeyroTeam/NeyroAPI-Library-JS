@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { TextAPI } from './text/index.js';
+import { GptNew, Filter } from './text/index.js';
 import { ImageAPI } from './image/index.js';
 import { AudioAPI } from './audio/index.js';
 
@@ -14,7 +14,7 @@ class AsyncNeyroAPI {
   }
 
   async textGptNew(data) {
-    return await TextAPI.asyncGptNew(this, data);
+    return await GptNewAPI.asyncGptNew(this, data);
   }
 
   async imageSh(data) {
@@ -26,7 +26,7 @@ class AsyncNeyroAPI {
   }
 
   async textFilter(data) {
-    return await TextAPI.asyncFilter(this, data);
+    return await FilterAPI.asyncFilter(this, data);
   }
 }
 
