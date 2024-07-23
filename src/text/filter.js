@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 
-class TextAPI {
+class Filter {
   static filter(api, data) {
     const url = `${api.BASE_URL}/text/filter`;
     return axios.post(url, data, { headers: api.headers })
@@ -19,4 +19,4 @@ class TextAPI {
   }
 }
 
-export { TextAPI };
+export { Filter };
