@@ -14,7 +14,7 @@ class NeyroAPI {
   }
 
   textGptNew(data) {
-    return GptNewAPI.gptNew(this, data);
+    return GptNew.gptNew(this, data);
   }
 
   imageSh(data) {
@@ -26,7 +26,7 @@ class NeyroAPI {
   }
 
   textFilter(data) {
-    return FilterAPI.filter(this, data);
+    return Filter.filter(this, data);
   }
 }
 
