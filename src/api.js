@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { TextAPI } from './text/index.js';
+import { GptNew, Filter } from './text/index.js';
 import { ImageAPI } from './image/index.js';
 import { AudioAPI } from './audio/index.js';
 
@@ -14,7 +14,7 @@ class NeyroAPI {
   }
 
   textGptNew(data) {
-    return TextAPI.gptNew(this, data);
+    return GptNewAPI.gptNew(this, data);
   }
 
   imageSh(data) {
@@ -26,7 +26,7 @@ class NeyroAPI {
   }
 
   textFilter(data) {
-    return TextAPI.filter(this, data);
+    return FilterAPI.filter(this, data);
   }
 }
 
