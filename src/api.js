@@ -24,6 +24,10 @@ class NeyroAPI {
   audioTts(data) {
     return AudioAPI.tts(this, data);
   }
+
+  textFilter(data) {
+    return TextAPI.filter(this, data);
+  }
 }
 
 export { NeyroAPI };
