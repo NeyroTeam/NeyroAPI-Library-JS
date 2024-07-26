@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GptNew, Filter } from './text/index.js';
+import { GptNew, Filter, DeepSeek } from './text/index.js';
 import { ImageAPI } from './image/index.js';
 import { AudioAPI } from './audio/index.js';
 
@@ -27,6 +27,10 @@ class NeyroAPI {
 
   textFilter(data) {
     return Filter.filter(this, data);
+  }
+
+  textDeepSeek(data) {
+    return DeepSeek.deepseek(this, data);
   }
 }
 
