@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GptNew, Filter, DeepSeek, Groq } from './text/index.js';
+import { GptNew, Filter, DeepSeek, Groq, Pawan } from './text/index.js';
 import { ImageAPI } from './image/index.js';
 import { AudioAPI } from './audio/index.js';
 
@@ -35,6 +35,10 @@ class NeyroAPI {
 
   textGroq(data) {
     return Groq.groq(this, data);
+  }
+
+  textPawan(data) {
+    return Pawan.pawan(this, data);
   }
 }
 
