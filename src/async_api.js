@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { GptNew, Filter, DeepSeek, Groq } from './text/index.js';
+import { GptNew, Filter, DeepSeek, Groq, Pawan } from './text/index.js';
 import { ImageAPI } from './image/index.js';
 import { AudioAPI } from './audio/index.js';
 
@@ -37,6 +37,9 @@ class AsyncNeyroAPI {
     return await Groq.asyncGroq(this, data);
   }
 
+  async textPawan(data) {
+    return await Pawan.asyncPawan(this, data);
+  }
 }
 
 export { AsyncNeyroAPI };
